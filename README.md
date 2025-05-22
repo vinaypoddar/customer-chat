@@ -1,4 +1,4 @@
-#Chat Application
+# Chat Application
 
 ## Overview
 The JobRad Chat Application is a real-time chat system built with a **React** frontend and a **Spring Boot** backend. It enables **guests** (customers) to initiate chats and be assigned to available **agents** for one-on-one communication. The system uses **STOMP over WebSocket** (via SockJS) for real-time messaging, persists messages in an **H2 database**, and manages agent-guest assignments dynamically. The application ensures that agents can reply to assigned guests without manual recipient selection, and agents are freed for reassignment after a chat ends.
